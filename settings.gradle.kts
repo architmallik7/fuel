@@ -1,3 +1,7 @@
+pluginManagement {
+    includeBuild("plugins")
+}
+
 // import the plugin
 buildscript {
     repositories {
@@ -21,10 +25,6 @@ include(":fuel-moshi-jvm")
 
 include(":samples:httpbin-wasm")
 include(":samples:mockbin-native")
-
-pluginManagement {
-    includeBuild("plugins")
-}
 
 // build cache config
 buildCache {
