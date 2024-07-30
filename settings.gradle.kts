@@ -40,3 +40,5 @@ buildCache {
         endpoint = System.getenv("HARNESS_CACHE_SERVICE_ENDPOINT") // https://app.harness.io/gateway/cache-service
     }
 }
+
+# Test
